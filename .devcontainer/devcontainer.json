@@ -33,5 +33,8 @@
     }
   },
   "postCreateCommand": "bash ${containerWorkspaceFolder}/.devcontainer/post-create.sh ${containerWorkspaceFolder}",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/maven-sdkman:2": {}
+  }
 }
